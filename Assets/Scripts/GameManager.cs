@@ -14,6 +14,12 @@ public class GameManager : MonoBehaviour
 
     public TMP_Text scoreText;
 
+        private void Start()
+    {
+        Time.timeScale = 1f;
+        ActualizarMarcador();
+    }
+
     public void PuntoJugador1()
     {
         scoreP1++;
@@ -44,9 +50,5 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void Start()
-    {
-        Time.timeScale = 1f;
-        ActualizarMarcador();
-    }
+
 }
