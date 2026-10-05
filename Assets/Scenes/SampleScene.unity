@@ -152,6 +152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PaddleMovement
   speed: 8
+  limitY: 3.7
   upKey: 119
   downKey: 115
 --- !u!50 &328813301
@@ -555,6 +556,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PaddleMovement
   speed: 8
+  limitY: 3.7
   upKey: 273
   downKey: 274
 --- !u!50 &1957368798
